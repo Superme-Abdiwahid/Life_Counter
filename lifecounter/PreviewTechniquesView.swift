@@ -2,7 +2,7 @@
 //  PreviewTechniquesView.swift
 //  lifecounter
 //
-//  Created by stlp on 4/21/22.
+//  Created by Abdiwahid Bishar Hajir  on 4/21/22.
 //
 
 import Foundation

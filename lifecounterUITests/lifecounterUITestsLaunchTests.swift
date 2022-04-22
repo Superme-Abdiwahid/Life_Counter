@@ -2,7 +2,7 @@
 //  lifecounterUITestsLaunchTests.swift
 //  lifecounterUITests
 //
-//  Created by stlp on 4/20/22.
+//  Created by Abdiwahid Bishar Hajir  on 4/20/22.
 //
 
 import XCTest
