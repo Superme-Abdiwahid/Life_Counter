@@ -16,6 +16,7 @@
 		DB7C433328106E760085AF71 /* lifecounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7C433228106E760085AF71 /* lifecounterTests.swift */; };
 		DB7C433D28106E760085AF71 /* lifecounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7C433C28106E760085AF71 /* lifecounterUITests.swift */; };
 		DB7C433F28106E760085AF71 /* lifecounterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7C433E28106E760085AF71 /* lifecounterUITestsLaunchTests.swift */; };
+		DB7C434C2811E06E0085AF71 /* PreviewTechniquesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7C434B2811E06E0085AF71 /* PreviewTechniquesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DB7C433828106E760085AF71 /* lifecounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lifecounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB7C433C28106E760085AF71 /* lifecounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lifecounterUITests.swift; sourceTree = "<group>"; };
 		DB7C433E28106E760085AF71 /* lifecounterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lifecounterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DB7C434B2811E06E0085AF71 /* PreviewTechniquesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewTechniquesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				DB7C431B28106E740085AF71 /* AppDelegate.swift */,
 				DB7C431D28106E740085AF71 /* SceneDelegate.swift */,
 				DB7C431F28106E740085AF71 /* ViewController.swift */,
+				DB7C434B2811E06E0085AF71 /* PreviewTechniquesView.swift */,
 				DB7C432128106E740085AF71 /* Main.storyboard */,
 				DB7C432428106E750085AF71 /* Assets.xcassets */,
 				DB7C432628106E750085AF71 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB7C434C2811E06E0085AF71 /* PreviewTechniquesView.swift in Sources */,
 				DB7C432028106E740085AF71 /* ViewController.swift in Sources */,
 				DB7C431C28106E740085AF71 /* AppDelegate.swift in Sources */,
 				DB7C431E28106E740085AF71 /* SceneDelegate.swift in Sources */,
