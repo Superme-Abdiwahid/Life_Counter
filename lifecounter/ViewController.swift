@@ -20,11 +20,17 @@ class ViewController: UIViewController {
     
     @IBAction func Player_One_Minus5_Lives(_ sender: Any) {
         player_1_Count = ChangeText(player_1_Count, 5, "-")
+        if(player_1_Count == 0){
+            DisplayAlert(player_2_Life_Count, "Player 1")
+        }
         updateText(Reference_To_Text, player_1_Count)
 
     }
     @IBAction func Player_One_Plus5_Lives(_ sender: Any) {
         player_1_Count = ChangeText(player_1_Count, 5, "+")
+        if(player_1_Count == 0){
+            DisplayAlert(player_2_Life_Count, "Player 1")
+        }
         updateText(Reference_To_Text, player_1_Count)
 
 
@@ -32,6 +38,9 @@ class ViewController: UIViewController {
     
     @IBAction func Player_1_Plus_1Life(_ sender: Any) {
         player_1_Count = ChangeText(player_1_Count, 1, "+")
+        if(player_1_Count == 0){
+            DisplayAlert(player_2_Life_Count, "Player 1")
+        }
         updateText(Reference_To_Text, player_1_Count)
 
     }
@@ -39,12 +48,18 @@ class ViewController: UIViewController {
     
     @IBAction func Player_One_Minus1_Life(_ sender: Any) {
         player_1_Count = ChangeText( player_1_Count, 1, "-")
+        if(player_1_Count == 0){
+            DisplayAlert(player_2_Life_Count, "Player 1")
+        }
         updateText(Reference_To_Text, player_1_Count)
 
         
     }
     @IBAction func Player_2_Minus5_Lives(_ sender: Any) {
         player_2_Life_Count = ChangeText(player_2_Life_Count, 5, "-")
+        if(player_2_Life_Count == 0){
+            DisplayAlert(player_2_Life_Count, "Player2")
+        }
         updateText(Player2_Text, player_2_Life_Count)
     }
     
@@ -62,18 +77,38 @@ class ViewController: UIViewController {
     }
     @IBAction func Player2_Minus1_Life(_ sender: Any) {
         player_2_Life_Count = ChangeText(player_2_Life_Count, 1, "-")
+        if(player_2_Life_Count == 0){
+            DisplayAlert(player_2_Life_Count, "Player 2")
+        }
         updateText(Player2_Text, player_2_Life_Count)
     }
     @IBAction func Player2_Plus5_Lives(_ sender: Any) {
         player_2_Life_Count = ChangeText(player_2_Life_Count, 5, "+")
+        if(player_2_Life_Count == 0){
+            DisplayAlert(player_2_Life_Count, "Player 2")
+        }
         updateText(Player2_Text, player_2_Life_Count)
     }
     
     func updateText(_ args: UITextField, _ TYPE_field: Int){
         args.text = String(TYPE_field) + " lives left"
     }
+    
+    func DisplayAlert(_ Player_Type: Int, _ Player: String){
+            let alert = UIAlertController(title: "LOSE ALERT", message: Player +  " LOSES!!!! and is out", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment:
+                "Default action"), style: .default, handler: { _ in NSLog("The \"OK\" alert occured.")
+            }))
+            self.present(alert, animated: true, completion: {
+                NSLog("The alert was presented")})
+    }
+    
+    
     @IBAction func Player2_Plus1_Life(_ sender: Any) {
         player_2_Life_Count = ChangeText(player_2_Life_Count, 1, "+")
+        if(player_2_Life_Count == 0){
+            DisplayAlert(player_2_Life_Count, "Player 2")
+        }
         updateText(Player2_Text, player_2_Life_Count)
     }
     
