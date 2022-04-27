@@ -8,13 +8,45 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        switch segue.identifier
+//        {
+//        case Optional("fromFirstToSecond"):
+//            print("Going from first to second")
+//            let secondVC = segue.destination as! Test_View
+////                secondVC.message = "Howdy from First"
+//            break;
+//        default:
+//            print("I have no idea what segue you're using")
+//        }
+    //    }
+    @IBAction func Test_Test(_ sender: Any) {
+        print("IDGAF")
+    }
     private var player_1_Count = 20;
     private var player_2_Life_Count = 20;
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(Reference_To_Text)
         
+    }
+    
+    @IBAction func Decrease_Player(_ sender: Any) {
+        print("PLAYER DECREASED")
+    }
+    //    }
+    @IBAction func Increase_Test(_ sender: Any) {
+        
+    }
+    @IBAction func Increase_Player(_ sender: Any) {
+        print("FUCK YOU")
+    }
+    
+    @IBAction func Continue_Button(_ sender: Any) {
+        
+    }
+    @IBAction func TTTETETETE(_ sender: Any) {
+        print("ALALALALAL")
     }
 
     
