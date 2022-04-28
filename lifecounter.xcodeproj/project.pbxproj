@@ -21,6 +21,8 @@
 		DBA7FA062817A566003980E8 /* HomePage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA7FA052817A566003980E8 /* HomePage.storyboard */; };
 		DBA7FA082817A5A7003980E8 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA7FA072817A5A7003980E8 /* HomePage.swift */; };
 		DBA7FA0A28184DC6003980E8 /* Test_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA7FA0928184DC6003980E8 /* Test_View.swift */; };
+		DBA7FA0C2819ADBD003980E8 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA7FA0B2819ADBD003980E8 /* Person.swift */; };
+		DBA7FA0E2819AE19003980E8 /* Person_StoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA7FA0D2819AE19003980E8 /* Person_StoryBoard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		DBA7FA052817A566003980E8 /* HomePage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomePage.storyboard; sourceTree = "<group>"; };
 		DBA7FA072817A5A7003980E8 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		DBA7FA0928184DC6003980E8 /* Test_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_View.swift; sourceTree = "<group>"; };
+		DBA7FA0B2819ADBD003980E8 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		DBA7FA0D2819AE19003980E8 /* Person_StoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Person_StoryBoard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,8 @@
 				DBA7FA0928184DC6003980E8 /* Test_View.swift */,
 				DB7C434B2811E06E0085AF71 /* PreviewTechniquesView.swift */,
 				DB7C432128106E740085AF71 /* Main.storyboard */,
+				DBA7FA0B2819ADBD003980E8 /* Person.swift */,
+				DBA7FA0D2819AE19003980E8 /* Person_StoryBoard.storyboard */,
 				DB7C432428106E750085AF71 /* Assets.xcassets */,
 				DB7C432628106E750085AF71 /* LaunchScreen.storyboard */,
 				DB7C432928106E750085AF71 /* Info.plist */,
@@ -248,6 +254,7 @@
 			files = (
 				DBA7FA062817A566003980E8 /* HomePage.storyboard in Resources */,
 				DB7C432828106E750085AF71 /* LaunchScreen.storyboard in Resources */,
+				DBA7FA0E2819AE19003980E8 /* Person_StoryBoard.storyboard in Resources */,
 				DB7C432528106E750085AF71 /* Assets.xcassets in Resources */,
 				DB7C432328106E740085AF71 /* Main.storyboard in Resources */,
 				DBA7FA042817A53C003980E8 /* Home_Page.xib in Resources */,
@@ -279,6 +286,7 @@
 				DB7C434C2811E06E0085AF71 /* PreviewTechniquesView.swift in Sources */,
 				DB7C432028106E740085AF71 /* ViewController.swift in Sources */,
 				DB7C431C28106E740085AF71 /* AppDelegate.swift in Sources */,
+				DBA7FA0C2819ADBD003980E8 /* Person.swift in Sources */,
 				DBA7FA0A28184DC6003980E8 /* Test_View.swift in Sources */,
 				DB7C431E28106E740085AF71 /* SceneDelegate.swift in Sources */,
 			);

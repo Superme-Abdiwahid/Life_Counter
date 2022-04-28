@@ -24,11 +24,8 @@ class HomePage: UIViewController {
                 number_Of_Players += 1
                     }
                     else{
-//                        if(number_Of_Players <= 8){
                         print("decresing")
                         number_Of_Players -= 1
-                     //   }
-                        // this
         }
         if(number_Of_Players > 1){
             Continue_Button.isEnabled = true;
@@ -49,19 +46,6 @@ class HomePage: UIViewController {
     }
     @IBOutlet weak var Total_Players: UILabel!
     
-    @IBOutlet weak var Increase_Decrease: UIStepper!
-    @IBAction func WTF(_ sender: Any) {
-        print("WTF")
-    }
-    
-    @IBAction func TTTT(_ sender: UIStepper) {
-        print("Sender")
-    }
-    @IBAction func Add_Players(_ sender: Any) {
-        print("Player added")
-    }
     @IBOutlet weak var Continue_Button: UIButton!
-    @IBAction func Decrease_Player(_ sender: Any) {
-        print("Player decreased")
-    }
+   
 }

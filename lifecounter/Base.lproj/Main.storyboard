@@ -16,120 +16,129 @@
                         <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6X8-0b-F89">
-                                <rect key="frame" x="36" y="299" width="112" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="+1 lives"/>
-                                <connections>
-                                    <action selector="Player_1_Plus_1Life:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8eo-uA-NkP"/>
-                                </connections>
-                            </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Player 1's Health status" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ygB-7K-5tH">
-                                <rect key="frame" x="6" y="44" width="167" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="20 lives left" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="L3E-Fp-niw">
-                                <rect key="frame" x="36" y="94" width="107" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HIS-p7-TRU">
-                                <rect key="frame" x="36" y="227" width="112" height="27"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="-1 Life"/>
-                                <connections>
-                                    <action selector="Player_One_Minus1_Life:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oth-K8-uSA"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zox-Fq-4FR">
-                                <rect key="frame" x="37" y="370" width="111" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="+5 lives"/>
-                                <connections>
-                                    <action selector="Player_One_Plus5_Lives:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lav-Lc-yQd"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="usA-69-7u9">
-                                <rect key="frame" x="36" y="155" width="111" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="-5 lives"/>
-                                <connections>
-                                    <action selector="Player_One_Minus5_Lives:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v58-dF-LxK"/>
-                                </connections>
-                            </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="20 lives left" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fnp-Vr-nY0">
-                                <rect key="frame" x="236" y="94" width="107" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gnU-FJ-JOP">
-                                <rect key="frame" x="236" y="228" width="112" height="27"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="-1 Life"/>
-                                <connections>
-                                    <action selector="Player2_Minus1_Life:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qoB-qd-u00"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f68-xX-j5z">
-                                <rect key="frame" x="236" y="299" width="112" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="+1 lives"/>
-                                <connections>
-                                    <action selector="Player2_Plus1_Life:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dh4-yQ-bVe"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAu-4X-f6L">
-                                <rect key="frame" x="237" y="370" width="111" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="+5 lives"/>
-                                <connections>
-                                    <action selector="Player2_Plus5_Lives:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Eds-pK-fes"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zwu-Yc-DUT">
-                                <rect key="frame" x="236" y="155" width="111" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="-5 lives"/>
-                                <connections>
-                                    <action selector="Player_2_Minus5_Lives:" destination="BYZ-38-t0r" eventType="touchUpInside" id="la1-uR-e3W"/>
-                                </connections>
-                            </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Player 2's Health status" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FiY-uJ-dBb">
-                                <rect key="frame" x="201" y="44" width="176" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7sU-Zg-xod">
-                                <rect key="frame" x="129" y="517" width="134" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="HomePage"/>
-                                <connections>
-                                    <segue destination="Kfc-ZV-3aA" kind="show" id="9XN-Qc-6AH"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="BVW-B7-kR4">
+                                <rect key="frame" x="0.0" y="74" width="428" height="292"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="oUy-bW-gZe">
+                                        <rect key="frame" x="0.0" y="0.0" width="212" height="292"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Player 1's Health status" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ygB-7K-5tH">
+                                                <rect key="frame" x="0.0" y="0.0" width="212" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="20 lives left" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="L3E-Fp-niw">
+                                                <rect key="frame" x="0.0" y="54" width="212" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6X8-0b-F89">
+                                                <rect key="frame" x="0.0" y="108" width="212" height="31"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="+1 lives"/>
+                                                <connections>
+                                                    <action selector="Player_1_Plus_1Life:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8eo-uA-NkP"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HIS-p7-TRU">
+                                                <rect key="frame" x="0.0" y="159" width="212" height="31"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="-1 Life"/>
+                                                <connections>
+                                                    <action selector="Player_One_Minus1_Life:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oth-K8-uSA"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zox-Fq-4FR">
+                                                <rect key="frame" x="0.0" y="210" width="212" height="31"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="+5 lives"/>
+                                                <connections>
+                                                    <action selector="Player_One_Plus5_Lives:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lav-Lc-yQd"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="usA-69-7u9">
+                                                <rect key="frame" x="0.0" y="261" width="212" height="31"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="-5 lives"/>
+                                                <connections>
+                                                    <action selector="Player_One_Minus5_Lives:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v58-dF-LxK"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="6d0-Pb-fZI">
+                                        <rect key="frame" x="216" y="0.0" width="212" height="292"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Player 2's Health status" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FiY-uJ-dBb">
+                                                <rect key="frame" x="0.0" y="0.0" width="212" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="20 lives left" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fnp-Vr-nY0">
+                                                <rect key="frame" x="0.0" y="54" width="212" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f68-xX-j5z">
+                                                <rect key="frame" x="0.0" y="108" width="212" height="31"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="+1 lives"/>
+                                                <connections>
+                                                    <action selector="Player2_Plus1_Life:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dh4-yQ-bVe"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gnU-FJ-JOP">
+                                                <rect key="frame" x="0.0" y="159" width="212" height="31"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="-1 Life"/>
+                                                <connections>
+                                                    <action selector="Player2_Minus1_Life:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qoB-qd-u00"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAu-4X-f6L">
+                                                <rect key="frame" x="0.0" y="210" width="212" height="31"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="+5 lives"/>
+                                                <connections>
+                                                    <action selector="Player2_Plus5_Lives:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Eds-pK-fes"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zwu-Yc-DUT">
+                                                <rect key="frame" x="0.0" y="261" width="212" height="31"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="-5 lives"/>
+                                                <connections>
+                                                    <action selector="Player_2_Minus5_Lives:" destination="BYZ-38-t0r" eventType="touchUpInside" id="la1-uR-e3W"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FTc-ze-5vo">
-                                <rect key="frame" x="129" y="659" width="134" height="55"/>
+                                <rect key="frame" x="153" y="421" width="94" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Continue"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7sU-Zg-xod">
+                                <rect key="frame" x="153" y="460" width="110" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="HomePage" buttonSize="medium"/>
+                                <connections>
+                                    <segue destination="Kfc-ZV-3aA" kind="show" id="9XN-Qc-6AH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="BVW-B7-kR4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="6ZK-88-wXL"/>
+                            <constraint firstItem="BVW-B7-kR4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7V4-RK-vIq"/>
+                            <constraint firstItem="BVW-B7-kR4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FLe-aN-7eU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BVW-B7-kR4" secondAttribute="trailing" id="RfB-SW-Klb"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ci9-aI-qg3"/>
                     <connections>
@@ -139,7 +148,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="586.95652173913049" y="85.714285714285708"/>
+            <point key="canvasLocation" x="576" y="88"/>
         </scene>
         <!--Home Page-->
         <scene sceneID="nYz-w0-65K">
@@ -149,35 +158,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="185" translatesAutoresizingMaskIntoConstraints="NO" id="btY-iQ-0g7">
-                                <rect key="frame" x="120" y="44" width="188" height="864"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="btY-iQ-0g7">
+                                <rect key="frame" x="50" y="174" width="328" height="524"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter the number of Players" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zBl-th-FMb">
-                                        <rect key="frame" x="0.0" y="0.0" width="188" height="20.333333333333332"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Life Counter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8yD-FG-Mnq">
+                                        <rect key="frame" x="70" y="0.0" width="188" height="20.333333333333332"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Life Counter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8yD-FG-Mnq">
-                                        <rect key="frame" x="0.0" y="205.33333333333334" width="188" height="20.333333333333343"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter the number of Players" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zBl-th-FMb">
+                                        <rect key="frame" x="58.333333333333329" y="120.3333333333333" width="211.33333333333337" height="20.333333333333329"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 Players" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5yH-Kb-Bbo">
-                                        <rect key="frame" x="0.0" y="410.66666666666669" width="188" height="20.333333333333314"/>
+                                        <rect key="frame" x="129.33333333333334" y="240.66666666666669" width="69.666666666666657" height="20.333333333333314"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="rCz-wT-PTd">
-                                        <rect key="frame" x="0.0" y="616" width="188" height="32"/>
+                                        <rect key="frame" x="117" y="361" width="94" height="32"/>
                                         <connections>
                                             <action selector="Increment_Or_Decrement:" destination="Kfc-ZV-3aA" eventType="valueChanged" id="KdR-fA-6Lm"/>
                                         </connections>
                                     </stepper>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hDo-9V-bqE">
-                                        <rect key="frame" x="0.0" y="833" width="188" height="31"/>
+                                        <rect key="frame" x="123" y="493" width="82.333333333333314" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Continue"/>
                                         <connections>
@@ -189,17 +198,288 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="W4r-As-NYq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="btY-iQ-0g7" firstAttribute="leading" secondItem="W4r-As-NYq" secondAttribute="leading" constant="50" id="CPT-Gs-i1M"/>
+                            <constraint firstItem="W4r-As-NYq" firstAttribute="trailing" secondItem="btY-iQ-0g7" secondAttribute="trailing" constant="50" id="c9v-oH-lix"/>
+                            <constraint firstItem="btY-iQ-0g7" firstAttribute="centerY" secondItem="pze-eE-wWw" secondAttribute="centerY" id="pU8-OU-1LZ"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Hkf-1D-rvq"/>
                     <connections>
                         <outlet property="Continue_Button" destination="hDo-9V-bqE" id="kBe-Tr-kw2"/>
-                        <outlet property="Increase_Decrease" destination="rCz-wT-PTd" id="AQd-6g-Xwj"/>
                         <outlet property="Total_Players" destination="5yH-Kb-Bbo" id="xy2-dW-NKq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JZw-Dd-Ndz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-573.36448598130835" y="156.80345572354213"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Snt-C4-kd5">
+            <objects>
+                <viewController id="u7m-kw-pWR" customClass="ViewController" customModule="lifecounter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ikY-7A-2r7">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="zae-3l-cpq">
+                                <rect key="frame" x="0.0" y="74" width="428" height="292"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Kmv-wU-r7M">
+                                        <rect key="frame" x="0.0" y="0.0" width="212" height="292"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Player 1's Health status" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BX6-Cl-5q0">
+                                                <rect key="frame" x="0.0" y="0.0" width="212" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="20 lives left" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3Go-L4-L5C">
+                                                <rect key="frame" x="0.0" y="54" width="212" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mVC-bX-Mmo">
+                                                <rect key="frame" x="0.0" y="108" width="212" height="31"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="+1 lives"/>
+                                                <connections>
+                                                    <action selector="Player_1_Plus_1Life:" destination="u7m-kw-pWR" eventType="touchUpInside" id="9Kh-MN-iCr"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uvt-ys-Z4F">
+                                                <rect key="frame" x="0.0" y="159" width="212" height="31"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="-1 Life"/>
+                                                <connections>
+                                                    <action selector="Player_One_Minus1_Life:" destination="u7m-kw-pWR" eventType="touchUpInside" id="k9O-hR-i0X"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kzm-9p-Ueb">
+                                                <rect key="frame" x="0.0" y="210" width="212" height="31"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="+5 lives"/>
+                                                <connections>
+                                                    <action selector="Player_One_Plus5_Lives:" destination="u7m-kw-pWR" eventType="touchUpInside" id="vhy-wu-BxV"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I7y-ze-hwX">
+                                                <rect key="frame" x="0.0" y="261" width="212" height="31"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="-5 lives"/>
+                                                <connections>
+                                                    <action selector="Player_One_Minus5_Lives:" destination="u7m-kw-pWR" eventType="touchUpInside" id="R6z-TK-Weo"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="IrN-2J-hL4">
+                                        <rect key="frame" x="216" y="0.0" width="212" height="292"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Player 2's Health status" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TQs-dc-Ai3">
+                                                <rect key="frame" x="0.0" y="0.0" width="212" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="20 lives left" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HZv-lB-P0j">
+                                                <rect key="frame" x="0.0" y="54" width="212" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uDc-jQ-qBv">
+                                                <rect key="frame" x="0.0" y="108" width="212" height="31"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="+1 lives"/>
+                                                <connections>
+                                                    <action selector="Player2_Plus1_Life:" destination="u7m-kw-pWR" eventType="touchUpInside" id="P5t-mt-QEd"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SdE-yu-gkX">
+                                                <rect key="frame" x="0.0" y="159" width="212" height="31"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="-1 Life"/>
+                                                <connections>
+                                                    <action selector="Player2_Minus1_Life:" destination="u7m-kw-pWR" eventType="touchUpInside" id="eTP-fS-uDT"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fUC-Fc-fUQ">
+                                                <rect key="frame" x="0.0" y="210" width="212" height="31"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="+5 lives"/>
+                                                <connections>
+                                                    <action selector="Player2_Plus5_Lives:" destination="u7m-kw-pWR" eventType="touchUpInside" id="m7R-nI-9R8"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XQg-ca-bA7">
+                                                <rect key="frame" x="0.0" y="261" width="212" height="31"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="-5 lives"/>
+                                                <connections>
+                                                    <action selector="Player_2_Minus5_Lives:" destination="u7m-kw-pWR" eventType="touchUpInside" id="rI2-jX-KtB"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U7l-Oe-9aI">
+                                <rect key="frame" x="153" y="421" width="94" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Continue"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sVx-Dg-7ec">
+                                <rect key="frame" x="153" y="460" width="110" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="HomePage" buttonSize="medium"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hw6-pJ-vYY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zae-3l-cpq" firstAttribute="centerX" secondItem="ikY-7A-2r7" secondAttribute="centerX" id="NTm-2v-Led"/>
+                            <constraint firstItem="zae-3l-cpq" firstAttribute="top" secondItem="hw6-pJ-vYY" secondAttribute="top" constant="30" id="hbB-8S-FqS"/>
+                            <constraint firstItem="hw6-pJ-vYY" firstAttribute="trailing" secondItem="zae-3l-cpq" secondAttribute="trailing" id="nTf-2F-sqm"/>
+                            <constraint firstItem="zae-3l-cpq" firstAttribute="leading" secondItem="hw6-pJ-vYY" secondAttribute="leading" id="wsw-4K-hFX"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="hLO-Bl-QpU"/>
+                    <connections>
+                        <outlet property="Player2_Text" destination="HZv-lB-P0j" id="7p8-2f-yTZ"/>
+                        <outlet property="Reference_To_Text" destination="3Go-L4-L5C" id="3Rp-jh-Gzg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WJJ-HF-05H" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="576" y="88"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Vqe-xa-trB">
+            <objects>
+                <viewController id="buO-W0-4dh" customClass="ViewController" customModule="lifecounter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mcJ-fb-rS4">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Player 1's Health status" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MbO-AW-UFS">
+                                <rect key="frame" x="0.0" y="76" width="428" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="20 lives left" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6AJ-ML-0T9">
+                                <rect key="frame" x="10" y="132" width="150" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WTk-Yi-0aV">
+                                <rect key="frame" x="20" y="190" width="130" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="+1 lives"/>
+                                <connections>
+                                    <action selector="Player_1_Plus_1Life:" destination="u7m-kw-pWR" eventType="touchUpInside" id="afU-ko-YGy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xV2-T7-vAg">
+                                <rect key="frame" x="20" y="241" width="135" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="-1 Life"/>
+                                <connections>
+                                    <action selector="Player_One_Minus1_Life:" destination="u7m-kw-pWR" eventType="touchUpInside" id="Prx-kM-k7A"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RVb-ul-uw8">
+                                <rect key="frame" x="24" y="293" width="131" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="+5 lives"/>
+                                <connections>
+                                    <action selector="Player_One_Plus5_Lives:" destination="u7m-kw-pWR" eventType="touchUpInside" id="Xpc-KE-IeE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iwd-BR-Bnv">
+                                <rect key="frame" x="20" y="351" width="138" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="-5 lives"/>
+                                <connections>
+                                    <action selector="Player_One_Minus5_Lives:" destination="u7m-kw-pWR" eventType="touchUpInside" id="DvE-bU-jZR"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Player 2's Health status" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Av5-qB-LDi">
+                                <rect key="frame" x="220" y="76" width="212" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="20 lives left" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TDd-yC-gqh">
+                                <rect key="frame" x="216" y="132" width="212" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uzc-b4-z3M">
+                                <rect key="frame" x="255" y="190" width="153" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="+1 lives"/>
+                                <connections>
+                                    <action selector="Player2_Plus1_Life:" destination="u7m-kw-pWR" eventType="touchUpInside" id="Duf-WE-iDQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qax-DV-EBD">
+                                <rect key="frame" x="260" y="241" width="139" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="-1 Life"/>
+                                <connections>
+                                    <action selector="Player2_Minus1_Life:" destination="u7m-kw-pWR" eventType="touchUpInside" id="V4P-cb-pmD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aAI-sI-0gy">
+                                <rect key="frame" x="260" y="293" width="139" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="+5 lives"/>
+                                <connections>
+                                    <action selector="Player2_Plus5_Lives:" destination="u7m-kw-pWR" eventType="touchUpInside" id="WY7-LB-GCc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eus-sl-bMU">
+                                <rect key="frame" x="268" y="350" width="131" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="-5 lives"/>
+                                <connections>
+                                    <action selector="Player_2_Minus5_Lives:" destination="u7m-kw-pWR" eventType="touchUpInside" id="zak-Dq-Aqd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eG0-ta-M2Y">
+                                <rect key="frame" x="167" y="624" width="94" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Continue"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eaK-Z7-mDS">
+                                <rect key="frame" x="167" y="678" width="110" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="HomePage" buttonSize="medium"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="agH-CE-IMm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="MbO-AW-UFS" firstAttribute="width" secondItem="mcJ-fb-rS4" secondAttribute="width" multiplier="0.495327" id="Yyk-ok-gGV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="n0V-VY-Q7d"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="brK-KO-11G" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1420.0934579439252" y="75.809935205183592"/>
         </scene>
     </scenes>
     <color key="tintColor" systemColor="systemGreenColor"/>
