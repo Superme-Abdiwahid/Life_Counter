@@ -8,39 +8,34 @@
 import UIKit
 
 class ViewController: UIViewController {
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        switch segue.identifier
-//        {
-//        case Optional("fromFirstToSecond"):
-//            print("Going from first to second")
-//            let secondVC = segue.destination as! Test_View
-////                secondVC.message = "Howdy from First"
-//            break;
-//        default:
-//            print("I have no idea what segue you're using")
-//        }
-    //    }
+
     @IBAction func Test_Test(_ sender: Any) {
         print("IDGAF")
     }
+    
+    @IBOutlet weak var Home_Page: UIButton!
+    
+    @IBOutlet weak var HomePage2: UIButton!
+    @IBOutlet var Continues: [UIButton]!
     private var player_1_Count = 20;
     private var player_2_Life_Count = 20;
     override func viewDidLoad() {
+        print(Home_Page)
+        print(Continues)
+        print(HomePage2)
         super.viewDidLoad()
         view.addSubview(Reference_To_Text)
-        
+                let alert = UIAlertController(title: "Starting Game", message: "Game is about to start get ready", preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment:
+                    "Default action"), style: .default, handler: { _ in NSLog("The \"OK\" alert occured.")
+                }))
+                self.present(alert, animated: true, completion: {
+                    NSLog("The alert was presented")})
     }
     
-    @IBAction func Decrease_Player(_ sender: Any) {
-        print("PLAYER DECREASED")
-    }
-    //    }
-    @IBAction func Increase_Test(_ sender: Any) {
-        
-    }
-    @IBAction func Increase_Player(_ sender: Any) {
-        print("FUCK YOU")
-    }
+    
+    
+    
     
     @IBAction func Continue_Button(_ sender: Any) {
         
@@ -51,6 +46,7 @@ class ViewController: UIViewController {
 
     
     @IBAction func Player_One_Minus5_Lives(_ sender: Any) {
+      //  Home_Page.isEnabled = false;
         player_1_Count = ChangeText(player_1_Count, 5, "-")
         if(player_1_Count == 0){
             DisplayAlert(player_2_Life_Count, "Player 1")
@@ -59,6 +55,7 @@ class ViewController: UIViewController {
 
     }
     @IBAction func Player_One_Plus5_Lives(_ sender: Any) {
+      //  Home_Page.isEnabled = false;
         player_1_Count = ChangeText(player_1_Count, 5, "+")
         if(player_1_Count == 0){
             DisplayAlert(player_2_Life_Count, "Player 1")
@@ -69,6 +66,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func Player_1_Plus_1Life(_ sender: Any) {
+      //  Home_Page.isEnabled = false;
         player_1_Count = ChangeText(player_1_Count, 1, "+")
         if(player_1_Count == 0){
             DisplayAlert(player_2_Life_Count, "Player 1")
@@ -79,6 +77,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func Player_One_Minus1_Life(_ sender: Any) {
+       // Home_Page.isEnabled = false;
         player_1_Count = ChangeText( player_1_Count, 1, "-")
         if(player_1_Count == 0){
             DisplayAlert(player_2_Life_Count, "Player 1")
@@ -88,6 +87,7 @@ class ViewController: UIViewController {
         
     }
     @IBAction func Player_2_Minus5_Lives(_ sender: Any) {
+       // Home_Page.isEnabled = false;
         player_2_Life_Count = ChangeText(player_2_Life_Count, 5, "-")
         if(player_2_Life_Count == 0){
             DisplayAlert(player_2_Life_Count, "Player2")
@@ -108,6 +108,7 @@ class ViewController: UIViewController {
         
     }
     @IBAction func Player2_Minus1_Life(_ sender: Any) {
+     //   Home_Page.isEnabled = false;
         player_2_Life_Count = ChangeText(player_2_Life_Count, 1, "-")
         if(player_2_Life_Count == 0){
             DisplayAlert(player_2_Life_Count, "Player 2")
@@ -115,6 +116,7 @@ class ViewController: UIViewController {
         updateText(Player2_Text, player_2_Life_Count)
     }
     @IBAction func Player2_Plus5_Lives(_ sender: Any) {
+     //   Home_Page.isEnabled = false;
         player_2_Life_Count = ChangeText(player_2_Life_Count, 5, "+")
         if(player_2_Life_Count == 0){
             DisplayAlert(player_2_Life_Count, "Player 2")

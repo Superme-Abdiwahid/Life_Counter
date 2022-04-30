@@ -326,12 +326,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Continue"/>
+                                <connections>
+                                    <segue destination="buO-W0-4dh" kind="show" id="OhC-ah-xC2"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sVx-Dg-7ec">
-                                <rect key="frame" x="153" y="460" width="110" height="38"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="biA-0H-bsp">
+                                <rect key="frame" x="149" y="469" width="95" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="HomePage" buttonSize="medium"/>
+                                <buttonConfiguration key="configuration" style="filled" title="HomePage"/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hw6-pJ-vYY"/>
@@ -345,20 +348,23 @@
                     </view>
                     <navigationItem key="navigationItem" id="hLO-Bl-QpU"/>
                     <connections>
+                        <outlet property="HomePage2" destination="biA-0H-bsp" id="Cli-bV-AJf"/>
+                        <outlet property="Home_Page" destination="biA-0H-bsp" id="esj-Jx-cMT"/>
                         <outlet property="Player2_Text" destination="HZv-lB-P0j" id="7p8-2f-yTZ"/>
                         <outlet property="Reference_To_Text" destination="3Go-L4-L5C" id="3Rp-jh-Gzg"/>
+                        <outletCollection property="Continues" destination="U7l-Oe-9aI" collectionClass="NSMutableArray" id="axl-XV-OGj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WJJ-HF-05H" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="576" y="88"/>
+            <point key="canvasLocation" x="574.76635514018687" y="87.473002159827217"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Vqe-xa-trB">
             <objects>
                 <viewController id="buO-W0-4dh" customClass="ViewController" customModule="lifecounter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mcJ-fb-rS4">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Player 1's Health status" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MbO-AW-UFS">
